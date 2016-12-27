@@ -21,10 +21,8 @@
     function link(scope, element, attrs) {
       return ArticlesService.query().$promise.then(function(res) {
         scope.articles = res;
-        console.log('articles', scope.articles);
-        console.log('articles', scope.articles.length);
         scope.articles = _.map(scope.articles, function(article) {
-          article.preview = article.content.slice(0, 49);
+          article.preview = article.content.slice(0, 149);
           return article;
         });
       });

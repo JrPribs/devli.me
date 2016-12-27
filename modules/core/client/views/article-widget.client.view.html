@@ -1,6 +1,12 @@
 <div class="row">
     <div ng-repeat="article in articles track by $index" class="col-md-3">
-      <h2>{{article.title}}</h2>
-      <p>{{article.preview}}</p>
+        <div class="thumbnail">
+            <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97200&w=250&h=200" alt="">
+            <div class="caption">
+                <h2>{{article.title}}</h2>
+                <p>{{article.preview}}</p>
+                <p><a href="#" class="btn btn-info" role="button">View Article</a></p>
+            </div>
+        </div>
     </div>
 </div>
