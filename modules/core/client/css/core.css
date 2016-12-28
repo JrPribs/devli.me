@@ -44,3 +44,12 @@ a:hover .header-profile-image {
 .navbar-brand {
     margin-top: -18px;
 }
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+
+section.container {
+    margin-top: 100px;
+}
