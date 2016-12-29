@@ -64,7 +64,7 @@ section.container {
 }
 .quote-box p.lead {
     font-size: 50px;
-    text-shadow: 1px 1px rgba(255,255,255,0.2), -1px -1px rgba(0,50,0,0.6);
+    text-shadow: 1px 1px rgba(255,255,255,0.2), -1px -1px rgba(0,0,0,0.6);
 }
 
 span.cursive {
