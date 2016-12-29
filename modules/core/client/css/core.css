@@ -1,5 +1,6 @@
 .content {
   margin-top: 50px;
+  font-family: 'Ubuntu', sans-serif !important;
 }
 .undecorated-link:hover {
   text-decoration: none;
@@ -49,7 +50,25 @@ a:hover .header-profile-image {
     margin-left: 50px;
 }
 
+header.navbar.navbar-fixed-top {
+    min-height: 150px;
+}
 
 section.container {
     margin-top: 100px;
+}
+
+.quote-box {
+    padding: 150px 50px;
+    color: #a3ce87;
+}
+.quote-box p.lead {
+    font-size: 50px;
+    text-shadow: 1px 1px rgba(255,255,255,0.2), -1px -1px rgba(0,50,0,0.6);
+}
+
+span.cursive {
+    font-size: 100px;
+    color: rgba(255, 205, 216, .87);
+    font-family: 'Rouge Script', sans-serif !important;
 }
