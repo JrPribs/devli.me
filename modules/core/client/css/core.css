@@ -58,7 +58,8 @@ a:hover .header-profile-image {
 
 header.navbar.navbar-fixed-top {
     min-height: 75px;
-    background: white;
+    background: rgba(111,111,111,.95);
+    box-shadow: 0 1px 2px black;
 }
 
 section.container {
@@ -73,11 +74,9 @@ section.container {
 .quote-box p.lead {
     font-size: 50px;
     font-weight: 800;
-    text-shadow: 1px 1px rgba(255,255,255,0.2), -1px -1px rgba(0,0,0,0.1);
+    text-shadow: 1px 1px rgba(255,255,255,0.2), -1px -1px rgba(0,0,0,0.5);
 }
-.quote-box p.lead.lead2 {
-    text-shadow: 1px 1px rgba(255,255,255,0.2), -1px -1px rgba(0,0,0,0.1);
-}
+
 span.cursive {
     color: rgb(0,255,0);
     font-size: 100px;
