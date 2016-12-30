@@ -1,15 +1,15 @@
 .nav.navbar-right>li {
-    height: 75px;
-}
-.nav.navbar-right>li {
     font-size: 24px;
     padding-top: 10px;
 }
+
 .nav.navbar-right>li>a {
     font-weight: 600;
     color: black;
 }
-.nav.navbar-right>li>a:hover {
+
+.nav.navbar-right>li>a:hover,
+.nav.navbar-right>li.active>a {
     font-weight: 600;
     color: rgba(0,255,0,.75);
     text-shadow: 1px 1px rgba(255,255,255,0.2), -1px -1px rgba(0,0,0,0.5);
