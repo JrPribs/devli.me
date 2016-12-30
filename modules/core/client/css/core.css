@@ -1,3 +1,6 @@
+body {
+    background: #3a3b3c;
+}
 .content {
   margin-top: 50px;
   font-family: 'Ubuntu', sans-serif !important;
@@ -42,8 +45,11 @@ a:hover .header-profile-image {
 .has-error .help-inline.error-text {
   display: inline;
 }
+
+
+/* home page */
 .navbar-brand {
-    margin-top: -18px;
+    margin-top: -20px;
 }
 
 .ml-50 {
@@ -51,7 +57,8 @@ a:hover .header-profile-image {
 }
 
 header.navbar.navbar-fixed-top {
-    min-height: 150px;
+    min-height: 75px;
+    background: white;
 }
 
 section.container {
@@ -60,15 +67,19 @@ section.container {
 
 .quote-box {
     padding: 150px 50px;
-    color: #a3ce87;
-}
-.quote-box p.lead {
-    font-size: 50px;
-    text-shadow: 1px 1px rgba(255,255,255,0.2), -1px -1px rgba(0,0,0,0.6);
+    color: rgba(0,0,0,.8);
 }
 
+.quote-box p.lead {
+    font-size: 50px;
+    font-weight: 800;
+    text-shadow: 1px 1px rgba(255,255,255,0.2), -1px -1px rgba(0,0,0,0.1);
+}
+.quote-box p.lead.lead2 {
+    text-shadow: 1px 1px rgba(255,255,255,0.2), -1px -1px rgba(0,0,0,0.1);
+}
 span.cursive {
+    color: rgb(0,255,0);
     font-size: 100px;
-    color: rgba(255, 205, 216, .87);
     font-family: 'Rouge Script', sans-serif !important;
 }
