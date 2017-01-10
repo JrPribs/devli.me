@@ -1,5 +1,5 @@
 body {
-    background: #3a3b3c;
+    background-image: url('/modules/core/client/img/grey-pattern.png');
 }
 .content {
   margin-top: 50px;
